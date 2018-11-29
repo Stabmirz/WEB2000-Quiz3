@@ -6,7 +6,7 @@ function scratch(img) {
     setTimeout(() => img.style.opacity = "0", 1000);
     setTimeout(() => mySound.play(), 1200);
     modal.style.visibility = "hidden"
-    setTimeout(() => modal.style.visibility = "visible", 1300);
+    setTimeout(() => modal.style.visibility = "visible", 1200);
 }
 
 imgs.forEach(function (img) {
